@@ -16,6 +16,12 @@ TextUtils is a simple and efficient React application that provides useful text 
 
 
 ## ScreenShots
+![Screenshot 2024-07-21 at 6 53 14 PM](https://github.com/user-attachments/assets/82a24378-5a87-4463-bae2-eb607a6ddac4)
+![Screenshot 2024-07-21 at 6 53 25 PM](https://github.com/user-attachments/assets/0ca7fc9c-aea5-42ce-af5c-87782de1df9e)
+![Screenshot 2024-07-21 at 6 54 44 PM](https://github.com/user-attachments/assets/ca86f4c5-0cc4-43ce-bd97-de82320b4e84)
+![Screenshot 2024-07-21 at 6 55 42 PM](https://github.com/user-attachments/assets/72f1eead-ace6-4fb3-9761-5f25e5b26b42)
+![Screenshot 2024-07-21 at 6 55 49 PM](https://github.com/user-attachments/assets/908e0bea-a3c1-4699-bd31-c0d4a57bccfc)
+![Screenshot 2024-07-21 at 6 56 22 PM](https://github.com/user-attachments/assets/7e6ddcd9-7c59-448f-b821-70c24d0ee0d2)
 
 
 ## Built With
