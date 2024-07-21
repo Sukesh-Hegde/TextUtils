@@ -32,6 +32,12 @@ export default function TextForm(props) {
     props.showAlert("Text copied", "success");
   };
 
+  const handleExtraSpaces = () => {
+    let newText = text.split(/[ ]+/);
+    setText(newText.join(" "));
+    props.showAlert("Extra Spaces Removed", "success");
+  };
+
   const [text, setText] = useState("");
   return (
     <>
@@ -87,10 +93,18 @@ export default function TextForm(props) {
 
           <button
             disabled={text.length === 0}
-            className="btn btn-primary "
+            className="btn btn-primary  mx-2 my-2 "
             onClick={handleLoCopy}
           >
             Copy
+          </button>
+
+          <button
+            disabled={text.length === 0}
+            className="btn btn-primary  mx-2 my-2"
+            onClick={handleExtraSpaces}
+          >
+            Remove Extra Spaces
           </button>
         </div>
       </div>
