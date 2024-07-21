@@ -44,7 +44,7 @@ function App() {
               path="/"
               element={
                 <TextForm
-                  heading="Try TextUtils - Word Counter, Character Couter, Remove extra spaces"
+                  heading="Try TextUtils - Word Counter, Character Counter, Remove extra spaces"
                   mode={mode}
                   showAlert={showAlert}
                 />

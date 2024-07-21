@@ -1,27 +1,9 @@
 export default function About(props) {
-  // const [myStyle, setMyStyle] = useState({
-  //   color: "black",
-  //   backgroundColor: "white",
-  // });
-  document.title = "TextUtils";
 
   let myStyle = {
     color: props.mode == "dark" ? "white" : "black",
     backgroundColor: props.mode == "dark" ? "#274449" : "white",
   };
-
-  // const [btnText, setBtnText] = useState("Enable Dark Mode");
-
-  // const toggleStyle = () => {
-  //   if (myStyle.color === "white") {
-  //     setMyStyle({ color: "black", backgroundColor: "white" });
-  //     setBtnText("Enable Dark Mode");
-  //   } else {
-  //     setMyStyle({ color: "white", backgroundColor: "black", border:"1px solid white" });
-  //     setBtnText("Enable Light Mode");
-
-  //   }
-  // };
 
   return (
     <div

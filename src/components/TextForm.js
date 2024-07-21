@@ -11,7 +11,7 @@ export default function TextForm(props) {
     setText(event.target.value);
   };
 
-  const handleLoClick = (event) => {
+  const handleLoClick = () => {
     let newText = text.toLowerCase();
     setText(newText);
     props.showAlert("converted to LowerCase", "success");
@@ -28,7 +28,6 @@ export default function TextForm(props) {
   };
 
   const handleLoCopy = () => {
-
     navigator.clipboard.writeText(text);
     props.showAlert("Text copied", "success");
   };
