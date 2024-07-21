@@ -12,6 +12,11 @@ TextUtils is a simple and efficient React application that provides useful text 
 - **Copy Content:** Copy the content to the clipboard.
 - **Read Content:** Use speech synthesis to read the content aloud.
 - **Clear Content:** Clear the input text.
+- **Dark and Light Mode:** Toggle between dark and light themes for better readability and user preference.
+
+
+## ScreenShots
+
 
 ## Built With
 
